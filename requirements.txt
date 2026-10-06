@@ -1,0 +1,8 @@
+torch>=2.7,<2.12
+torchvision>=0.22,<0.27
+Pillow>=10
+numpy>=2
+onnx>=1.18
+onnxruntime>=1.22
+openvino>=2025.1
+coremltools>=8.3; platform_system != "Linux" or platform_machine == "x86_64"

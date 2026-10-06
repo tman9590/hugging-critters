@@ -1,0 +1,8 @@
+/data/
+checkpoints/*
+!checkpoints/metrics.json
+work/
+*.pyc
+__pycache__/
+.venv/
+models/ncnn/model.pnnx.*
